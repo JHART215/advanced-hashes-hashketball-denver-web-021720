@@ -192,7 +192,6 @@ def long_name_steals_a_ton?
     end
   end
 end
-
 describe 'bonus' do
 
 #   describe '#most_points_scored' do
@@ -230,14 +229,9 @@ describe 'bonus' do
     it 'returns Brendan Haywood' do
       expect(player_with_longest_name).to eq("Brendan Haywood")
     end
-
-#   end
   end
-
-# end
 end
 
-# describe 'super bonus' do
 describe 'super bonus' do
   describe '#long_name_steals_a_ton?' do
     it 'returns true' do
