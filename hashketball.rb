@@ -1,4 +1,3 @@
-require 'Pry'
 
 def game_hash
   {
