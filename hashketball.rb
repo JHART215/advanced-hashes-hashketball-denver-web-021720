@@ -128,28 +128,6 @@ def num_points_scored(player_name)
     end
   end
 
-  # SOLUTION 1 - naive
-  # some_hash.each do |key, value|
-  # game_hash.each do |team, team_data|
-  #   team_data.each do |attr, data|
-  #     if attr == :players
-  #       found_player = data.find do |player|
-  #         player[:player_name] == player_name
-  #       end
-  #
-  #       if found_player
-  #         return found_player[:points]
-  #       end
-  #     end
-  #   end
-  # end
-  # SOLUTION 2 - good
-  # game_hash.each do |team, team_data|
-  #   team_data[:players].each do |player|
-  #     if player[:player_name] == player_name
-  #       return player[:points]
-  #     end
-  #   end
     return player[:points] if player[:player_name] == player_name
   end
 end
